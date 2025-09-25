@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header{
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    margin: 20px;
+}
+#posts{
+    flex: 3;
+}
+#posts article{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: 5px;
+}
+aside{
+    flex: 1;
+    margin-left: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: steelblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background: navy;
+}
+footer{
+    background: white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
